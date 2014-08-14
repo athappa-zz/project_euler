@@ -1,9 +1,15 @@
 #I want to write a program that converts an integer into a binary
 
 #def int_binary(n):
-	
 
-n = 19
+input_sign = '>>> '	
+
+print '''
+Type in an integer you would like to be converted into a binary
+''' 
+n = int(raw_input(input_sign))
+ 
+#n = 19
 binary_list = list()
 
 while n > 0:
