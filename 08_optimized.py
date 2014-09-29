@@ -52,45 +52,6 @@ print max(seq_13, key=product)
 elapsed = (time.time() - start)
 print "time: %s seconds" % elapsed
 
-'''
-def consecutive_groups(chunk_size, list):
-    sequences = []
-
-    count = 0
-    for i in list:
-        x = list[count:count+chunk_size]
-        if len(x) == 13:
-            sequences.append(x)
-            count += 1
-    return sequences
-'''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
